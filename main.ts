@@ -23,6 +23,18 @@ obj.id = "amar123"
 console.log(`Array : ${arr}\nObj : ${obj.id}`)
 
 
+// IMPORTANT - in case of object if we want to over ride object with same key structure the it allowed us to do like given
+
+obj={
+    id:"samrendra"
+}
+
+// but if we  want to add some extra key or change the type of key the it will throw an error like given
+ 
+// obj={    // overall this code will throw error 
+//     // id:12,   error will occure
+//     // name:"sam"  error will occure
+// }
 
 
 /*

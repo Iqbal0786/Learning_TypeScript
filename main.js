@@ -14,6 +14,15 @@ var obj = {
 arr.push(20);
 obj.id = "amar123";
 console.log("Array : ".concat(arr, "\nObj : ").concat(obj.id));
+// IMPORTANT - in case of object if we want to over ride object with same key structure the it allowed us to do like given
+obj = {
+    id: "samrendra"
+};
+// but if we  want to add some extra key or change the type of key the it will throw an error like given
+// obj={    // overall this code will throw error 
+//     // id:12,   error will occure
+//     // name:"sam"  error will occure
+// }
 /*
   Variable Type declartion- To declare type of a variable  we have to use (:) after variable name and then define type. Example is given below
 
