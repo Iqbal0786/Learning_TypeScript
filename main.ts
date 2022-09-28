@@ -61,3 +61,12 @@ nameArray.push("iqbal")
 
 
 // Union types
+
+// if we want to declare an array with multiple types values like string , number , object  etc then we can use  union types. example is given 
+
+let mixedArr : (string|number|object)[]=[] ;
+ mixedArr.push(20)
+ mixedArr.push("Hello")
+ mixedArr.push({name:"object value"})
+
+ 
