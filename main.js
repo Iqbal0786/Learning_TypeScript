@@ -34,3 +34,9 @@ var role = "Full stack MERN developer";
 var passout = true;
 //   name=1223 // throw an error that Type 'number' is not assignable to type 'string'
 console.log("Hii my name is ".concat(name, ".\nI am ").concat(age, " year old.\nCurrently I am a ").concat(role));
+// arrays 
+// let nameArr:string[];
+//  nameArr.push("iqbal")  throw an error  so to resolve initilized an empty arr
+var nameArray = [];
+nameArray.push("iqbal");
+// Union types

@@ -52,4 +52,12 @@ let passout:boolean=true;
 console.log(`Hii my name is ${name}.\nI am ${age} year old.\nCurrently I am a ${role}`)
 
 
+// arrays 
+// let nameArr:string[];
+//  nameArr.push("iqbal")  throw an error  so to resolve initilized an empty arr
 
+let nameArray:string[]=[];
+nameArray.push("iqbal")
+
+
+// Union types
