@@ -73,3 +73,5 @@ addNumbers = function (a, b, c) {
 };
 // to make parameters optional we use ? after parameter like c?:number is optional
 console.log(addNumbers(50, 50, 100));
+var userId; // direct way 
+var userId2; // using type Aliases

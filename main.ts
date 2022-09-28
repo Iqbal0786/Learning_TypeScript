@@ -99,3 +99,9 @@ addNumbers=(a:number,b:number,c:number=10)=>{
 }
 // to make parameters optional we use ? after parameter like c?:number is optional
 console.log(addNumbers(50,50 , 100))
+
+// Type Aliases in ts
+type stringOrNumber=string|number
+
+let userId:string|number; // direct way 
+let userId2:stringOrNumber; // using type Aliases
