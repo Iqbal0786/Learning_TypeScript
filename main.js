@@ -45,3 +45,7 @@ var mixedArr = [];
 mixedArr.push(20);
 mixedArr.push("Hello");
 mixedArr.push({ name: "object value" });
+// variable can also have union type declartion
+var id;
+id = "id123";
+id = 1234;

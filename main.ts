@@ -69,4 +69,7 @@ let mixedArr : (string|number|object)[]=[] ;
  mixedArr.push("Hello")
  mixedArr.push({name:"object value"})
 
- 
+// variable can also have union type declartion
+let  id : string|number;
+id="id123";
+id=1234
