@@ -105,3 +105,6 @@ type stringOrNumber=string|number
 
 let userId:string|number; // direct way 
 let userId2:stringOrNumber; // using type Aliases
+
+
+// Function Signature

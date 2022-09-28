@@ -75,3 +75,4 @@ addNumbers = function (a, b, c) {
 console.log(addNumbers(50, 50, 100));
 var userId; // direct way 
 var userId2; // using type Aliases
+// Function Signature
