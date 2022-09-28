@@ -87,10 +87,10 @@ Object={
 // Function Declarations 
 
 // first way 
-function add ( a:number,b:number){
-     console.log(a+b)
+function add (...args:any){
+     console.log(args.reduce((acc,e)=>acc+e ,0))
 }
-add(10,10)
+add(10,10 ,20,30,50)
 
 // second way 
 let addNumbers:Function;

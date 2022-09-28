@@ -57,10 +57,14 @@ Object = {
 };
 // Function Declarations 
 // first way 
-function add(a, b) {
-    console.log(a + b);
+function add() {
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        args[_i] = arguments[_i];
+    }
+    console.log(args.reduce(function (acc, e) { return acc + e; }, 0));
 }
-add(10, 10);
+add(10, 10, 20, 30, 50);
 // second way 
 var addNumbers;
 addNumbers = function (a, b, c) {
