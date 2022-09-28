@@ -1,7 +1,8 @@
 "use strict";
 exports.__esModule = true;
-// regular js codes
+// in typeScript once a variable is initilized with var or let it can not be reassign to any other data types  like the given example 
 var message = "Hello World";
+//  message= 12  this will throw an error that cant assign to a string 
 console.log(message);
 /*
   Variable Type declartion- To declare type of a variable  we have to use (:) after variable name and then define type. Example is given below

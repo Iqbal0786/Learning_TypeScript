@@ -1,6 +1,8 @@
 export {}
-// regular js codes
-let message="Hello World"
+
+// in typeScript once a variable is initilized with var or let it can not be reassign to any other data types  like the given example 
+let message="Hello World";
+//  message= 12  this will throw an error that cant assign to a string 
 console.log(message);
 
 /*
