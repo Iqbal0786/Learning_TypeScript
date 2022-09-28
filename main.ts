@@ -82,3 +82,20 @@ Object=[1,2,3,4];
 Object={
     name:"aman" ,
 }
+
+
+// Function Declarations 
+
+// first way 
+function add ( a:number,b:number){
+     console.log(a+b)
+}
+add(10,10)
+
+// second way 
+let addNumbers:Function;
+addNumbers=(a:number,b:number,c?:number)=>{
+    return c?a+b+c:a+b
+}
+// to make parameters default we use ? after parameter like c?:number is optional
+console.log(addNumbers(50,50 , 100))

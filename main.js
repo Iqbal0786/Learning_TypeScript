@@ -55,5 +55,16 @@ Object = [1, 2, 3, 4];
 Object = {
     name: "aman"
 };
-var realObject; // this time it will create only object like this
-realObject = [];
+// Function Declarations 
+// first way 
+function add(a, b) {
+    console.log(a + b);
+}
+add(10, 10);
+// second way 
+var addNumbers;
+addNumbers = function (a, b, c) {
+    return c ? a + b + c : a + b;
+};
+// to make parameters default we use ? after parameter like c?:number is optional
+console.log(addNumbers(50, 50, 100));
