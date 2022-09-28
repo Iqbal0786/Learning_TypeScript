@@ -68,7 +68,8 @@ add(10, 10, 20, 30, 50);
 // second way 
 var addNumbers;
 addNumbers = function (a, b, c) {
+    if (c === void 0) { c = 10; }
     return c ? a + b + c : a + b;
 };
-// to make parameters default we use ? after parameter like c?:number is optional
+// to make parameters optional we use ? after parameter like c?:number is optional
 console.log(addNumbers(50, 50, 100));
