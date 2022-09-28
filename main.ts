@@ -73,3 +73,12 @@ let mixedArr : (string|number|object)[]=[] ;
 let  id : string|number;
 id="id123";
 id=1234
+
+
+// object type declaration
+let Object:object;   // this type declartion  allow to create object type (array,object etc)
+
+Object=[1,2,3,4];
+Object={
+    name:"aman" ,
+}

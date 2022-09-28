@@ -49,3 +49,11 @@ mixedArr.push({ name: "object value" });
 var id;
 id = "id123";
 id = 1234;
+// object type declaration
+var Object; // this type declartion  allow to create object type (array,object etc)
+Object = [1, 2, 3, 4];
+Object = {
+    name: "aman"
+};
+var realObject; // this time it will create only object like this
+realObject = [];
